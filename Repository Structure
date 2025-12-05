@@ -1,0 +1,17 @@
+Mini-SOC-Homelab/
+│── README.md
+│── requirements.txt
+│── .gitignore
+│
+│── log_generator/
+│     └── generator.py         # Main log generator script
+│
+│── detection_rules/
+│     ├── failed_login_bruteforce.yml  # Rule: brute-force detection
+│     └── port_scan_anomaly.yml        # Rule: basic port scan anomaly
+│
+│── dashboards/
+│     └── wazuh_dashboard.json # Example dashboard definition (template)
+│
+└── samples/
+      └── example_logs.json    # Sample generated log events
