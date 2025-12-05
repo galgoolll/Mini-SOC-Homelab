@@ -1,0 +1,17 @@
+Mini-SOC-Homelab/
+│── README.md
+│── requirements.txt
+│── .gitignore
+│
+│── log_generator/
+│     └── generator.py
+│
+│── detection_rules/
+│     ├── failed_login_bruteforce.yml
+│     └── port_scan_anomaly.yml
+│
+│── dashboards/
+│     └── wazuh_dashboard.json
+│
+└── samples/
+      └── example_logs.json
